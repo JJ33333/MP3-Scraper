@@ -7,7 +7,6 @@ class MP3Conan(ConanFile):
   settings = "os", "compiler", "build_type", "arch"
 
   def requirements(self):
-    self.requires("boost/1.87.0")
     self.requires("libev/4.33")
 
   def generate(self):
